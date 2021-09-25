@@ -1,0 +1,12 @@
+C:\Data\Projects\VisionPoint\PowerBIAdminModule\PowerBIAdmin.Repository\bin\Debug\netcoreapp3.1\PowerBIAdmin.Repository.deps.json
+C:\Data\Projects\VisionPoint\PowerBIAdminModule\PowerBIAdmin.Repository\bin\Debug\netcoreapp3.1\PowerBIAdmin.Repository.dll
+C:\Data\Projects\VisionPoint\PowerBIAdminModule\PowerBIAdmin.Repository\bin\Debug\netcoreapp3.1\PowerBIAdmin.Repository.pdb
+C:\Data\Projects\VisionPoint\PowerBIAdminModule\PowerBIAdmin.Repository\obj\Debug\netcoreapp3.1\PowerBIAdmin.Repository.AssemblyInfoInputs.cache
+C:\Data\Projects\VisionPoint\PowerBIAdminModule\PowerBIAdmin.Repository\obj\Debug\netcoreapp3.1\PowerBIAdmin.Repository.AssemblyInfo.cs
+C:\Data\Projects\VisionPoint\PowerBIAdminModule\PowerBIAdmin.Repository\obj\Debug\netcoreapp3.1\PowerBIAdmin.Repository.csproj.CoreCompileInputs.cache
+C:\Data\Projects\VisionPoint\PowerBIAdminModule\PowerBIAdmin.Repository\obj\Debug\netcoreapp3.1\PowerBIAdmin.Repository.dll
+C:\Data\Projects\VisionPoint\PowerBIAdminModule\PowerBIAdmin.Repository\obj\Debug\netcoreapp3.1\PowerBIAdmin.Repository.pdb
+C:\Data\Projects\VisionPoint\PowerBIAdminModule\PowerBIAdmin.Repository\bin\Debug\netcoreapp3.1\PowerBIAdmin.Repository.runtimeconfig.json
+C:\Data\Projects\VisionPoint\PowerBIAdminModule\PowerBIAdmin.Repository\bin\Debug\netcoreapp3.1\PowerBIAdmin.Repository.runtimeconfig.dev.json
+C:\Data\Projects\VisionPoint\PowerBIAdminModule\PowerBIAdmin.Repository\obj\Debug\netcoreapp3.1\PowerBIAdmin.Repository.genruntimeconfig.cache
+C:\Data\Projects\VisionPoint\PowerBIAdminModule\PowerBIAdmin.Repository\obj\Debug\netcoreapp3.1\PowerBIAdmin.Repository.csproj.AssemblyReference.cache

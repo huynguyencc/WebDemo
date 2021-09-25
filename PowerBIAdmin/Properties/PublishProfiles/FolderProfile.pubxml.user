@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\Data\Projects\VisionPoint\PowerBIAdminModule\PowerBIAdmin\bin\Release\netcoreapp3.1\publish\</_PublishTargetUrl>
+    <History>True|2021-09-14T04:55:01.1117156Z;True|2021-09-13T23:42:47.3820164+07:00;True|2021-09-13T23:23:48.0165511+07:00;True|2021-09-13T18:48:36.3122050+07:00;</History>
+  </PropertyGroup>
+</Project>

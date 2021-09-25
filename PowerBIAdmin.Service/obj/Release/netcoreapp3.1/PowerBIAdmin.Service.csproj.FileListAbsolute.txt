@@ -1,0 +1,12 @@
+C:\Data\Projects\VisionPoint\PowerBIAdminModule\PowerBIAdmin.Service\bin\Release\netcoreapp3.1\PowerBIAdmin.Service.deps.json
+C:\Data\Projects\VisionPoint\PowerBIAdminModule\PowerBIAdmin.Service\bin\Release\netcoreapp3.1\PowerBIAdmin.Service.dll
+C:\Data\Projects\VisionPoint\PowerBIAdminModule\PowerBIAdmin.Service\bin\Release\netcoreapp3.1\PowerBIAdmin.Service.pdb
+C:\Data\Projects\VisionPoint\PowerBIAdminModule\PowerBIAdmin.Service\bin\Release\netcoreapp3.1\PowerBIAdmin.Repository.dll
+C:\Data\Projects\VisionPoint\PowerBIAdminModule\PowerBIAdmin.Service\bin\Release\netcoreapp3.1\PowerBIAdmin.Repository.pdb
+C:\Data\Projects\VisionPoint\PowerBIAdminModule\PowerBIAdmin.Service\obj\Release\netcoreapp3.1\PowerBIAdmin.Service.csproj.AssemblyReference.cache
+C:\Data\Projects\VisionPoint\PowerBIAdminModule\PowerBIAdmin.Service\obj\Release\netcoreapp3.1\PowerBIAdmin.Service.AssemblyInfoInputs.cache
+C:\Data\Projects\VisionPoint\PowerBIAdminModule\PowerBIAdmin.Service\obj\Release\netcoreapp3.1\PowerBIAdmin.Service.AssemblyInfo.cs
+C:\Data\Projects\VisionPoint\PowerBIAdminModule\PowerBIAdmin.Service\obj\Release\netcoreapp3.1\PowerBIAdmin.Service.csproj.CoreCompileInputs.cache
+C:\Data\Projects\VisionPoint\PowerBIAdminModule\PowerBIAdmin.Service\obj\Release\netcoreapp3.1\PowerBIAdmin.Service.csproj.CopyComplete
+C:\Data\Projects\VisionPoint\PowerBIAdminModule\PowerBIAdmin.Service\obj\Release\netcoreapp3.1\PowerBIAdmin.Service.dll
+C:\Data\Projects\VisionPoint\PowerBIAdminModule\PowerBIAdmin.Service\obj\Release\netcoreapp3.1\PowerBIAdmin.Service.pdb

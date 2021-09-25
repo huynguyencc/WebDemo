@@ -1,0 +1,101 @@
+@model PowerBIAdmin.Service.PowerBiTenantDetails
+
+<h2 id="page-title">
+    <span><a class="btn btn-sm h2-backarrow" asp-action="Workspaces"><i class="fa fa-backward"></i></a></span>
+    <span>Workspace Details</span>
+</h2>
+
+<form id="workspace-detail" class="form-horizontal" method="post" role="form">
+    <fieldset>
+        <div class="form-group row">
+            <label for="Name" class="col-sm-3 col-form-label">Name</label>
+            <div class="col-sm-9">
+                <input class="form-control " id="Name" name="Name" readonly value="@Model.Name">
+            </div>
+        </div>
+        <div class="form-group row">
+            <label for="WorkspaceId" class="col-sm-3 col-form-label">Workspace ID</label>
+            <div class="col-sm-9">
+                <input class="form-control" id="WorkspaceId" name="WorkspaceId" readonly="readonly" value="@Model.WorkspaceId">
+            </div>
+        </div>
+        <div class="form-group row">
+            <label for="WorkspaceUrl" class="col-sm-3 col-form-label">Workspace URL</label>
+            <div class="col-sm-9">
+                <input class="form-control" id="WorkspaceUrl" name="WorkspaceUrl" readonly="readonly" value="@Model.WorkspaceUrl">
+            </div>
+        </div>
+        @if (Model.Datasets == null || Model.Datasets.Count() == 0)
+        {
+            <div class="form-group row button-row">
+                <button id="import-report-button" type="submit" class="btn btn-primary">
+                    <i class="fa fa-bar-chart"></i>
+                    Import Default Template
+                </button>
+            </div>
+        }
+    </fieldset>
+</form>
+
+<div class="row">
+
+    <div class="col-6">
+        <h4>Members</h4>
+        <table class="table table-sm table-bordered table-striped">
+            <thead class="thead-dark">
+                <tr>
+                    <th>Member</th>
+                    <th>Permissions</th>
+                    <th>Member Type</th>
+                </tr>
+            </thead>
+            @foreach (var member in Model.Members)
+            {
+                <tr>
+                    <td>@member.DisplayName</td>
+                    <td>@member.GroupUserAccessRight</td>
+                    <td>@member.PrincipalType.Value</td>
+                </tr>
+            }
+        </table>
+    </div>
+
+    <div class="col-3">
+        <h4>Datasets</h4>
+        <table class="table table-sm table-bordered table-striped">
+            <thead class="thead-dark">
+                <tr>
+                    <th>Name</th>
+                    <th>Is Refreshable</th>
+                </tr>
+            </thead>
+            @foreach (var dataset in Model.Datasets)
+            {
+<tr>
+    <td>@dataset.Name</td>
+    <td>@dataset.IsRefreshable</td>
+</tr>}
+        </table>
+    </div>
+
+    <div class="col-3">
+        <h4>Report</h4>
+        <table class="table table-sm table-bordered table-striped">
+            <thead class="thead-dark">
+                <tr>
+                    <th>Name</th>
+                    <th>Report Type</th>
+                </tr>
+            </thead>
+            @foreach (var report in Model.Reports)
+            {
+                <tr>
+                    <td>@report.Name</td>
+                    <td>@report.ReportType</td>
+                </tr>
+            }
+        </table>
+
+    </div>
+
+</div>

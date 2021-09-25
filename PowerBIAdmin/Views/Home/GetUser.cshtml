@@ -1,0 +1,35 @@
+@model PowerBIAdmin.Repository.Models.User
+
+<h2>
+  <span><a class="btn btn-sm h2-backarrow" asp-action="Users"><i class="fa fa-backward"></i></a></span>
+  <span>Customer Details</span>
+</h2>
+
+<form class="form-horizontal" role="form">
+    <fieldset>
+        <div class="form-group row">
+            <label for="LoginId" class="col-sm-3 col-form-label">Customer Id</label>
+            <div class="col-sm-9">
+                <input class="form-control " id="LoginId" name="LoginId" readonly value="@Model.LoginId">
+            </div>
+        </div>
+        <div class="form-group row">
+            <label for="LastLogin" class="col-sm-3 col-form-label">Created Date</label>
+            <div class="col-sm-9">
+                <input class="form-control" id="LastLogin" name="LastLogin" readonly="readonly" value="@Model.Created">
+            </div>
+        </div>
+        <div class="form-group row">
+            <label for="HomeTenant" class="col-sm-3 col-form-label">Power BI Workspace</label>
+            <div class="col-sm-9">
+                <input class="form-control" id="HomeTenant" name="HomeTenant" readonly="readonly" value="@Model.WorkspaceName">
+            </div>
+        </div>
+        <div class="form-group row">
+            <label for="PointApiUrl" class="col-sm-3 col-form-label">Point API Url</label>
+            <div class="col-sm-9">
+                <input class="form-control" id="PointApiUrl" name="PointApiUrl" readonly="readonly" value="@Model.PointApiUrl">
+            </div>
+        </div>
+    </fieldset>
+</form>

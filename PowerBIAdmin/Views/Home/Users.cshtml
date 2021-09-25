@@ -1,0 +1,62 @@
+@model IList<PowerBIAdmin.Repository.Models.User>
+
+<H2>Customers</H2>
+
+<div class="toolbar">
+  <a id="create-workspace-button" class="btn btn-primary" asp-action="CreateUser">
+    <i class="fa fa-user-plus"></i>
+    Create New Customer
+  </a>
+</div>
+
+<table class="table table-bordered table-striped">
+  <thead class="thead-dark">
+    <tr>
+      <th>Customer ID</th>
+      <th>Workspace</th>
+      <th style="text-align:center;">Can Edit</th>
+      <th style="text-align:center;">Can Create</th>
+      <th style="text-align:center;">View</th>
+      <th style="text-align:center;">Edit</th>
+      <th style="text-align:center;">Delete</th>
+    </tr>
+  </thead>
+  @foreach (var user in Model) {
+    <tr>
+        <td>@user.LoginId</td>
+        @if (!string.IsNullOrEmpty(user.WorkspaceName))
+        {
+            <td>@user.WorkspaceName</td>
+        }
+        else
+        {
+            <td class="status">
+                <span class="waiting">Waiting for Aassignment</span>
+            </td>
+        }
+        <td style="text-align: center; color: #51c151">
+            @if (@user.CanEdit)
+            {
+                <i class="fa fa-check"></i>
+            }
+            else
+            {
+                <i class="fa fa-close" style="color: #cf471e"></i>
+            }
+        </td>
+        <td style="text-align: center; color: #51c151">
+            @if (@user.CanCreate)
+            {
+                <i class="fa fa-check"></i>
+            }
+            else
+            {
+                <i class="fa fa-close" style="color: #cf471e"></i>
+            }
+        </td>
+        <td style="text-align:center"><a href="GetUser/?loginId=@user.LoginId" class="nav nav-link"><i class="fa fa-binoculars"></i></a></td>
+        <td style="text-align:center"><a href="EditUser/?loginId=@user.LoginId" class="nav nav-link"><i class="fa fa-edit"></i></a></td>
+        <td style="text-align:center"><a href="DeleteUser/?loginId=@user.LoginId" class="nav nav-link"><i class="fa fa-remove"></i></a></td>
+    </tr>
+  }
+</table>
