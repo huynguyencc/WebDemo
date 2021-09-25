@@ -57,11 +57,9 @@
     </fieldset>
 </form>
 
-
 @section Scripts {
   <script type="text/javascript">
     $(function () {
-
       $("#CanEdit").change(function () {
         if ((!$("#CanEdit").prop("checked")) && $("#CanCreate").prop("checked")) {
           $("#permissions-messages").text("Create permissions requires Edit permissions");
@@ -75,7 +73,6 @@
           $("#CanEdit").prop("checked", true);
         }
       });
-
     });
 	</script>
 } 
